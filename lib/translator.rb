@@ -13,9 +13,11 @@ end
 
 def get_japanese_emoticon(emoticons_file, emoticon)
   emoticon_hash = load_library(emoticons_file)
- if emoticon_hash[:get_emoticon][emoticon] 
-  end
+  if emoticon_hash[:get_emoticon][emoticon]
+   return emoticon_hash[:get_emoticon][emoticon]
+  else
    return "Sorry, that emoticon was not found"
+  end
   #binding.pry
 end
 
