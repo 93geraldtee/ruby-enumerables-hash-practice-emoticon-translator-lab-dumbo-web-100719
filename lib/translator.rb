@@ -26,8 +26,8 @@ def get_english_meaning(emoticons_file, emoticon)
   if emoticon_hash[:get_meaning][emoticon]
     return emoticon_hash[:get_meaning][emoticon]
   else
-    return 
+    return "Sorry, that emoticon was not found"
   #binding.pry 
-  # code goes here (Japanese to meaning)
+  end
 end
 
