@@ -23,7 +23,10 @@ end
 
 def get_english_meaning(emoticons_file, emoticon)
   emoticon_hash = load_library(emoticons_file)
-  emoticon_hash[:get_meaning][emoticon]
+  if emoticon_hash[:get_meaning][emoticon]
+    return emoticon_hash[:get_meaning][emoticon]
+  else
+    return 
   #binding.pry 
   # code goes here (Japanese to meaning)
 end
