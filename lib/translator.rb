@@ -26,3 +26,4 @@ def get_english_meaning(emoticons_file, emoticon)
   binding.pry 
   # code goes here (Japanese to meaning)
 end
+
