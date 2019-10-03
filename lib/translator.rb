@@ -24,5 +24,5 @@ end
 def get_english_meaning(emoticons_file, emoticon)
   emoticon_hash = load_library(emoticons_file)
   binding.pry 
-  # code goes here Japanese to meaning
+  # code goes here (Japanese to meaning)
 end
